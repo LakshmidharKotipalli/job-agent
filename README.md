@@ -1,4 +1,4 @@
-# 🤖 Personal Job Application Agent
+# Personal Job Application Agent
 
 A fully automated, AI-powered Python agent that scrapes job listings from multiple platforms, scores them against your resume using a local LLM (Ollama), generates tailored cover letters, and submits applications on your behalf — all while you sleep.
 
@@ -6,7 +6,7 @@ A fully automated, AI-powered Python agent that scrapes job listings from multip
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -21,7 +21,7 @@ A fully automated, AI-powered Python agent that scrapes job listings from multip
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 job-agent/
@@ -63,7 +63,7 @@ job-agent/
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - **Python 3.10+**
 - **Ollama** installed and running locally ([ollama.com](https://ollama.com))
@@ -72,7 +72,7 @@ job-agent/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup
 ```bash
@@ -115,7 +115,7 @@ python scheduler.py
 
 ---
 
-## ⚙️ How the Pipeline Works
+## How the Pipeline Works
 
 ```
 1. SCRAPE      → Playwright browsers query Indeed, Glassdoor, Built In
@@ -139,7 +139,7 @@ python scheduler.py
 
 ---
 
-## 📊 What Gets Saved
+## What Gets Saved
 
 Every job the agent encounters is permanently stored in `jobs.db` with:
 
@@ -157,7 +157,7 @@ Every job the agent encounters is permanently stored in `jobs.db` with:
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Dry-run is ON by default**. The agent will never submit applications unless you explicitly pass `--live`.
 - **Job board anti-bot measures**: Sites may occasionally block scraping. The agent uses stealth headers and human-like delays, but results may vary.
