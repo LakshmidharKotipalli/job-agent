@@ -165,7 +165,3 @@ Every job the agent encounters is permanently stored in `jobs.db` with:
 - **LinkedIn is not included** due to aggressive anti-automation enforcement.
 
 ---
-
-## 📝 License
-
-Personal use only.
